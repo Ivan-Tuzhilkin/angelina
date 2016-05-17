@@ -22,6 +22,7 @@ setup(
 	# The project's main homepage.
     url = 'https://github.com/Ivan-Tuzhilkin/angelina.git',
     packages = find_packages(),
+	# Add entry points
     entry_points = {
         'console_scripts':
             ['angelina = angelina.main:startapp', 'angelina-test = angelina.tests:create_test_space']
